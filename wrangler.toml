@@ -1,0 +1,7 @@
+name = "restore-opportunity-dashboard"
+compatibility_date = "2024-11-01"
+
+# Serve the repo root as a static site via Cloudflare Workers Assets.
+# No Worker script needed — Cloudflare serves index.html directly.
+[assets]
+directory = "."
